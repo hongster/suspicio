@@ -16,15 +16,13 @@
         </div>
 
         <div class="col-8">
-            @unless ($search)
+            @if (empty($search))
                 <p class="alert alert-light">
                     Before getting involved in any investment or monetary services, check the business name against Bank 
                     Negara Malaysia and Securites Commission Malaysia's watchlists. This is not an exhaustive list but if
                     you encountered anyone on the list, please report it to the authority immediately. 
                 </p>
-            @endunless
-
-            @if (count($entities) == 0)
+            @elseif (count($entities) == 0)
                 <p class="alert alert-danger">No matching search result.</p>
             @endif
 
