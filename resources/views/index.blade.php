@@ -19,7 +19,7 @@
             @if (empty($search))
                 <p class="alert alert-light">
                     Before getting involved in any investment or monetary services, check the business name against Bank 
-                    Negara Malaysia and Securites Commission Malaysia's watchlists. This is not an exhaustive list but if
+                    Negara Malaysia's watchlist. This is not an exhaustive list and only serves as a guide. If
                     you encountered anyone on the list, please report it to the authority immediately. 
                 </p>
             @elseif (count($entities) == 0)

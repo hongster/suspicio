@@ -12,3 +12,9 @@
 */
 
 $app->get('/', 'SuspiciousController@index');
+
+// Catch-all
+$app->get('{page}', function($page) {
+    $page = str_replace('/', ".", $page);
+    return view("static.{$page}");
+});

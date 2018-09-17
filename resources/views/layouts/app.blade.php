@@ -20,6 +20,7 @@
           <ul class="nav nav-pills float-right">
               <li class="nav-item"><a class="nav-link" href="{!! url('/') !!}">Home</a></li>
               <li class="nav-item"><a class="nav-link" href="{!! url('help') !!}">Help</a></li>
+              <li class="nav-item"><a class="nav-link" href="{!! url('about') !!}">About</a></li>
           </ul>
         </nav>
 
