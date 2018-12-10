@@ -24,7 +24,7 @@
 
     <h2>Contact Bank Negara</h2>
 
-    <p>If you spot any illegal and suspicious financial entities or acitvities, please alter BNM at:<br />
+    <p>If you spot any illegal and suspicious financial entities or acitvities, please alert BNM at:<br />
         Tel: <a href="tel:1-300-88-5465">1-300-88-5465</a><br />
         Email: <a href="mailto:bnmtelelink@bnm.gov.my">bnmtelelink@bnm.gov.my</a>
     </p>
